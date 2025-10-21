@@ -25,6 +25,3 @@ int main()
     std::cout << "That's an average of " << totalTime << " hours of climbing in a year! \n";
     
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
