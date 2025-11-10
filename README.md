@@ -1,2 +1,36 @@
-# Rock-Climbing-Preferences
-This application gathers information on a user and displays a banner with 3 choices. Choice 1 displays the users rock climbing preferences back to them in a well formatted banner. As well as the average number of hours they spend rock climbing in a year. It then saves the report as a txt file named report.txt. Choice 2 will determine how advanced a user is and display an encouraging message. Choice 3 ends the program, thanks the user and says goodbye. If an invalid input is given the program will terminate.
+🧗 Rock Climbing Preferences
+
+This application gathers information from a user about their rock climbing habits and preferences, then provides personalized feedback in an interactive menu.
+
+🪶 Overview
+
+The program displays a banner with four choices:
+1.View Preferences & Report
+Displays the user’s rock climbing preferences in a well-formatted banner.
+Calculates and shows the average number of hours spent climbing per year.
+Saves this report as a text file named report.txt.
+Skill Level & Encouragement
+2.Determines how advanced the user is based on their input.
+Displays a motivational message to encourage further progress.
+3. Records session data for x amount of sessions and displayes the average
+number of hours spent climbing among those sessions.
+4.Exit Program
+Thanks the user for participating.
+Displays a goodbye message and closes the program.
+
+🛑 Invalid Input:
+If an invalid option is entered, the program will ask for input again.
+
+⚙️ How It Works
+1. The user is prompted for their climbing details (preferences, experience level, etc.).
+2. A menu appears with three numbered choices.
+3. The program performs the selected action based on the user’s input.
+
+💾 Output File
+A text file called report.txt is created containing the user’s rock climbing data and yearly climbing summary.
+A tect file called sessiondata.txt is created containing the users session data for x amount of sessions.
+
+🙌 Author
+
+Created by Carleton Bonomo
+🪨 “Climb high, stay strong!”
