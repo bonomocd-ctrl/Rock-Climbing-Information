@@ -23,7 +23,7 @@ If an invalid option is entered, the program will ask for input again.
 
 ⚙️ How It Works
 1. The user is prompted for their climbing details (preferences, experience level, etc.).
-2. A menu appears with three numbered choices.
+2. A menu appears with 8 numbered choices.
 3. The program performs the selected action based on the user’s input.
 
 💾 Output File
