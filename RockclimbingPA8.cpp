@@ -124,7 +124,7 @@ ClimbDifficulty getDifficultyFromUser() {
     cin >> choice;
 
     while (choice < 1 || choice > 4) {
-        cout << "Invalid (1–4): ";
+        cout << "Invalid (1â€“4): ";
         cin >> choice;
     }
     cin.ignore();
@@ -200,11 +200,11 @@ void recommendLevel(int days, double hrs, double totalTime, string name)
     if (days >= FREQUENT_CLIMBER_DAYS && hrs >= DEDICATED_SESSION_HOURS)
         cout << "\nWow, " << name << "! You're extremely dedicated!\n";
     else if (days >= FREQUENT_CLIMBER_DAYS)
-        cout << "\nYou climb frequently — great job!\n";
+        cout << "\nYou climb frequently â€” great job!\n";
     else if (days < NEW_CLIMBER_DAYS && hrs <= DEDICATED_SESSION_HOURS)
-        cout << "\nYou're just starting out — keep going!\n";
+        cout << "\nYou're just starting out â€” keep going!\n";
     else if (days < NEW_CLIMBER_DAYS)
-        cout << "\nNew climber but very dedicated — awesome!\n";
+        cout << "\nNew climber but very dedicated â€” awesome!\n";
     else
         cout << "\nYou have a healthy, balanced climbing schedule.\n";
 
@@ -221,20 +221,20 @@ void recommendLevel(int days, double hrs, double totalTime, string name)
 // MONTHLY GRADES
 int fillMonthlyGrades(int grades[], int max) {
     int count;
-    cout << "\nHow many months (1–" << max << ")? ";
+    cout << "\nHow many months (1â€“" << max << ")? ";
     cin >> count;
 
     while (count < 1 || count > max) {
-        cout << "Invalid (1–" << max << "): ";
+        cout << "Invalid (1â€“" << max << "): ";
         cin >> count;
     }
 
     for (int i = 0; i < count; i++) {
         int value;
-        cout << "Difficulty for month " << (i + 1) << " (1–10): ";
+        cout << "Difficulty for month " << (i + 1) << " (1â€“10): ";
         cin >> value;
         while (value < 1 || value > 10) {
-            cout << "Must be 1–10: ";
+            cout << "Must be 1â€“10: ";
             cin >> value;
         }
         grades[i] = value;
